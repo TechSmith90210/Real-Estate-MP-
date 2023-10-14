@@ -1,0 +1,17 @@
+#containwithmap {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.containerformap {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.buttons1 {
+  width: 25%;
+}
+#postpropbtn {
+  margin-top: 5px;
+  padding: 10px;
+}

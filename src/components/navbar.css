@@ -1,0 +1,16 @@
+body {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.custom-font {
+  font-family: "Lato", sans-serif;
+}
+
+.scrolled {
+  background-color: #dee7e7;
+  transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,30 @@
+#hero1 {
+  font-size: 10vh;
+  padding: 2rem;
+  letter-spacing: -3px;
+}
+
+#hero2 {
+  background-color: aliceblue;
+  border-radius: 20px;
+  background-image: url("src/assets/hero-image.jpg");
+  background-size: cover;
+  padding: 4rem;
+}
+
+#transparentselector {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 1pc;
+  width: 75%;
+}
+
+.buttons {
+  font-size: small;
+  font-weight: bold;
+}
+
+#heroform {
+  border-radius: 20px;
+  padding: 1pc;
+}
