@@ -21,7 +21,7 @@ export const Services = () => {
         <Container
           fluid
           className="divservices2"
-          style={{ paddingLeft: 0, paddingRight: 0 }}
+          style={{ paddingLeft: 0  , paddingRight: 0 }}
         >
           <Row className="m-0">
             <Col>
