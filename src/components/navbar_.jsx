@@ -28,6 +28,7 @@ const Navbar_ = () => {
 
   return (
     <Navbar
+    id="navbar1"
       fixed="top"
       collapseOnSelect
       expand="lg"

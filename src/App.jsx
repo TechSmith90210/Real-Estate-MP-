@@ -9,20 +9,35 @@ import { Explore } from "./components/explore";
 import { Footer } from "./components/footer";
 import { Discover } from "./components/Discover";
 import { Services } from "./components/services";
+import { Spotlight } from "./components/spotlight";
 
 function App() {
   return (
     <div>
       <Navbar_ />
+      <br />
+      <br />
       {/* <Hero /> */}
+      {/* <Spotlight /> */}
+      <Services />
       {/* <Postpropfree /> */}
-      <Services/>
+      {/* <br />
+      <br />
+      <br />
+      <Discover />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> */}
       {/* <WhyUs /> */}
       {/* zaid will send design */}
-      {/* <Discover /> */}
-      {/* <Explore /> */}
+      {/* <Explore />
       <br />
-      {/* <Footer /> */}
+      <Footer /> */}
     </div>
   );
 }

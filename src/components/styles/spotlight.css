@@ -1,0 +1,25 @@
+.carousel {
+  max-width: 55vw; /* Set your desired max width */
+  margin: auto;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#spotcontain {
+  background-color: aliceblue;
+  width: 100%;
+  padding-top: 5vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 5vh;
+}

@@ -1,0 +1,21 @@
+.containforproprecent {
+  background: #dee7e7;
+  padding: 1rem;
+}
+
+.imageforrecent {
+  height: 35vh;
+  width: 17vw;
+  margin-bottom: 2vh;
+}
+
+.recentbtn {
+  margin-left: 1vw;
+  font-style: italic;
+  width: 16vw;
+  align-items: center;
+}
+
+.recentbtn:hover{
+    background-color: green;
+}

@@ -14,3 +14,7 @@ ul {
   background-color: #dee7e7;
   transition: 0.2s ease-in-out;
 }
+
+#navbar1{
+  margin-bottom: 10vh;
+}

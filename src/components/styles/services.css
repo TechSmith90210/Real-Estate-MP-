@@ -1,0 +1,56 @@
+.divservices {
+  font-family: "Lato";
+}
+
+.servicescontain1 {
+  background-color: #dee7e7;
+  padding: 2rem;
+  border-radius: 10px;
+  padding-right: 0rem;
+  padding-bottom: 8vh;
+  width: 100%;
+}
+
+#exploreservices {
+  font-size: 12vh;
+}
+
+.servicesimg {
+  height: 45vh;
+  width: 40vw;
+  margin-left: 20px;
+}
+
+.divservices2 {
+  background-color: #4f646f;
+  border-radius: 5px;
+  padding: 1rem;
+  position: absolute;
+  display: flex;
+  margin-top: -45px;
+  margin-left: 4px;
+  width: auto;
+}
+
+.butservices {
+  background-color: transparent;
+}
+
+.desc {
+  letter-spacing: 3px;
+  width: 90vw;
+}
+
+#btnforservices {
+  margin-top: 10px;
+  padding: 1rem;
+  width: 95%;
+}
+#btnforservices:hover{
+  background-color: #B7ADCF;
+}
+
+.containforservices {
+  margin: 1rem;
+  padding-right: -3px;
+}
