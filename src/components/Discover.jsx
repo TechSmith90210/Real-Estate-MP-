@@ -47,7 +47,7 @@ export const Discover = () => {
   );
 };
 
-const PropCardRecent = (props) => {
+export const PropCardRecent = (props) => {
   return (
     <Col>
       <div>

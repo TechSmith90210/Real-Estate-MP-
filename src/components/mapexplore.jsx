@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 import "./styles/explore.css";
 import { Map } from "./map";
 
-export const Explore = () => {
+export const MapExplore = () => {
   return (
     <div>
       <Container id="containwithmap" fluid="md">

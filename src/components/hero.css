@@ -24,6 +24,13 @@
   font-weight: bold;
 }
 
+.buttons:hover{
+  background-color: azure;
+  border-radius: 20px;
+  padding: 2rem;
+  font-size: x-large;
+}
+
 #heroform {
   border-radius: 20px;
   padding: 1pc;

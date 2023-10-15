@@ -2,38 +2,24 @@ import {} from "react";
 import "./App.css";
 import Navbar_ from "./components/navbar_";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Hero from "./components/hero";
-import Postpropfree from "./components/postpropfree";
-import { WhyUs } from "./components/WhyUs";
-import { Explore } from "./components/explore";
-import { Footer } from "./components/footer";
-import { Discover } from "./components/Discover";
-import { Services } from "./components/services";
-import { Spotlight } from "./components/spotlight";
-
+import { ExplorePage } from "./pages/ExplorePage";
+import { Route, Routes } from "react-router-dom";
+import { HomePage } from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 function App() {
   return (
     <div>
       <Navbar_ />
-      <br />
-      <br />
-      <Hero />
-      <br/><br/>
-      <Postpropfree /><br/><br/>
-      <Services />
-      <Spotlight />
-      <br />
-      <br />
-      <br />
-      <Discover />
-      <br />
-      <br />
-      <br />
-      <Explore />
-      <br />
-      <WhyUs />
-      <br />
-      <Footer />
+      <div className="containerforroutes">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/Explore" element={<ExplorePage />} />
+          <Route path="/Login" element={<LoginPage />} />
+          <Route path="/Register" element={<RegisterPage />} />
+        </Routes>
+      </div>
     </div>
   );
 }

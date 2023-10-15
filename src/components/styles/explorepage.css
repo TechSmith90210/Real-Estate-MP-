@@ -1,0 +1,15 @@
+#filtercontain {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  padding: 2rem;
+}
+
+#searchbartext{
+  
+}
+
+.searchicon{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

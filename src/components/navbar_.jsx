@@ -6,8 +6,9 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 import "./navbar.css";
+import { LinkContainer } from "react-router-bootstrap";
 
-const Navbar_ = () => {
+export const Navbar_ = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -28,7 +29,7 @@ const Navbar_ = () => {
 
   return (
     <Navbar
-    id="navbar1"
+      id="navbar1"
       fixed="top"
       collapseOnSelect
       expand="lg"
@@ -37,41 +38,46 @@ const Navbar_ = () => {
     >
       <Container>
         <Navbar.Brand
-          href="#home"
+          href="home"
           style={{ fontFamily: "Lato", fontWeight: "bold" }}
         >
-          <img
-            src="src\assets\favicon.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt="Logo"
-          />
-          Homeyz
+          <LinkContainer to="/home">
+            <div>
+              <img
+                src="src\assets\favicon.png"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Logo"
+              />
+              Homeyz
+            </div>
+          </LinkContainer>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#Explore">Explore</Nav.Link>
-            <Nav.Link href="#Rent">Rent Agreement</Nav.Link>
-            <Nav.Link href="#Loans">Loans</Nav.Link>
-            <Nav.Link href="#News">News</Nav.Link>
-            <NavDropdown title="Services" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                List Property
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Consult Experts
-              </NavDropdown.Item>
-            </NavDropdown>
+            <LinkContainer to="/Explore">
+              <Nav.Link>Explore</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/Rent">
+              <Nav.Link>Rent Agreement</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/ListProperty">
+              <Nav.Link>List Property</Nav.Link>
+            </LinkContainer>
           </Nav>
           <Nav>
-            <Nav.Link href="#Login">
-              <Button variant="dark">Login</Button>
-            </Nav.Link>
-            <Nav.Link href="#SignUp">
-              <Button variant="light">Register</Button>
-            </Nav.Link>
+            <LinkContainer to="/Login">
+              <Nav.Link>
+                <Button variant="dark">Login</Button>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/Register">
+              <Nav.Link>
+                <Button variant="light">Register</Button>
+              </Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
