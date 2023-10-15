@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./footer.css";
+import "./styles/footer.css";
 import { Col, Row, Button, Container } from "react-bootstrap";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
@@ -9,7 +9,7 @@ export const Footer = () => {
     <Container fluid className="containme">
       <Row>
         <Col>
-          <h5>Homeyz</h5>
+          <h4 className="mainfoothead">Homeyz</h4>
           <a href="#services">Our Services</a>
           <br />
           <a href="#price-trends">Price Trends</a>
@@ -19,7 +19,7 @@ export const Footer = () => {
           <a href="#rent-agreement">Rent Agreement</a>
         </Col>
         <Col>
-          <h5>Company</h5>
+          <h4 style={{ fontWeight: "bold" }}>Company</h4>
           <a href="#about-us">About Us</a>
           <br />
           <a href="#careers">Careers</a>
@@ -31,7 +31,7 @@ export const Footer = () => {
           <a href="#privacy">Privacy Policy</a>
         </Col>
         <Col>
-          <h5>Contact Us</h5>
+          <h4 style={{ fontWeight: "bold" }}>Contact Us</h4>
           <h6>
             Toll Free - 1900 41 91299
             <br />

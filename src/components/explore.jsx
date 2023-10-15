@@ -4,41 +4,21 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Button } from "react-bootstrap";
-import "./explore.css";
+import "./styles/explore.css";
 import { Map } from "./map";
 
 export const Explore = () => {
-    
   return (
     <div>
       <Container id="containwithmap" fluid="md">
         <Row>
           <Col>
-            <h1>Explore Top Localities</h1>
+            <h1 style={{ fontWeight: "bold" }}>Explore Top Localities</h1>
           </Col>
-          <Button
-            className="buttons1"
-            variant="light"
-          >
-            <span style={{ fontWeight: "bold" }}>Thane</span>
-            <br />
-            ₹12.4 K/ bedroom
-          </Button>
-          <Button className="buttons1" variant="light">
-            <span style={{ fontWeight: "bold" }}>Mira Road East</span>
-            <br />
-            ₹11.1 K/ bedroom
-          </Button>
-          <Button className="buttons1" variant="light">
-            <span style={{ fontWeight: "bold" }}>Powai</span>
-            <br />
-            ₹27.9 K/ bedroom
-          </Button>
-          <Button className="buttons1" variant="light">
-            <span style={{ fontWeight: "bold" }}>Chembur</span>
-            <br />
-            ₹23.7 K/ bedroom
-          </Button>
+          <MapBtn city="Thane" price="₹12.4 K/ bedroom" />
+          <MapBtn city="Mira Road East" price=" ₹11.1 K/ bedroom" />
+          <MapBtn city="Powai" price="₹₹27.9 K/ bedroom" />
+          <MapBtn city="Chembur" price="₹23.7 K/ bedroom" />
           <Col>
             <div className="containerformap">
               <Map />
@@ -47,5 +27,17 @@ export const Explore = () => {
         </Row>
       </Container>
     </div>
+  );
+};
+
+const MapBtn = (props) => {
+  return (
+    <Button className="buttons1" variant="light">
+      <span style={{ fontWeight: "bold", fontSize: "x-large" }}>
+        {props.city}
+      </span>
+      <br />
+      {props.price}
+    </Button>
   );
 };

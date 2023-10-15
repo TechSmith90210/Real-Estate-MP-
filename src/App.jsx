@@ -17,27 +17,23 @@ function App() {
       <Navbar_ />
       <br />
       <br />
-      {/* <Hero /> */}
-      {/* <Spotlight /> */}
+      <Hero />
+      <br/><br/>
+      <Postpropfree /><br/><br/>
       <Services />
-      {/* <Postpropfree /> */}
-      {/* <br />
+      <Spotlight />
+      <br />
       <br />
       <br />
       <Discover />
       <br />
       <br />
       <br />
+      <Explore />
       <br />
+      <WhyUs />
       <br />
-      <br />
-      <br />
-      <br /> */}
-      {/* <WhyUs /> */}
-      {/* zaid will send design */}
-      {/* <Explore />
-      <br />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

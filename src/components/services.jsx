@@ -21,49 +21,6 @@ export const Services = () => {
             <Image className="servicesimg" src="src\assets\servicesimg2.svg" />
           </Col>
         </Row>
-        {/* <Container
-          fluid
-          className="divservices2"
-          style={{ paddingLeft: 0, paddingRight: 0 }}
-        >
-          <Row className="m-0">
-            <Col>
-              <ServiceCard
-                title="Rental Services"
-                description="Apartments, land, builder floors, villas and more"
-                imageUrl="src/assets/servicesimg.jpg"
-              />
-            </Col>
-            <Col>
-              <ServiceCard
-                title="Spotlight"
-                description="Showcasing premium properties for discerning buyers."
-                imageUrl="src\assets\services-img4.jpg"
-              />
-            </Col>
-            <Col>
-              <ServiceCard
-                title="Rental Agreements"
-                description="Hassle-free documentation for secure renting."
-                imageUrl="src\assets\services-img5.jpg"
-              />
-            </Col>
-            <Col>
-              <ServiceCard
-                title="Prebooking / Large Deposit"
-                description=" Secure your dream space in advance."
-                imageUrl="src\assets\services-img3.jpg"
-              />
-            </Col>
-            <Col>
-              <ServiceCard
-                title="Autopayments"
-                description="Effortless and timely rent transactions for tenants."
-                imageUrl="src/assets/services-img2.jpg"
-              />
-            </Col>
-          </Row>
-        </Container> */}
         <Servicesbtn
           serviceImageUrl="src\assets\contract1.svg"
           servicetitle="Smart Rental Agreements"

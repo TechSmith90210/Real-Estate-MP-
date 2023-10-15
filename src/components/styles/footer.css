@@ -20,3 +20,8 @@ a::before {
   bottom: auto;
   padding: 2rem;
 }
+
+.mainfoothead{
+  font-weight: bold;
+ 
+}
